@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.field-label {
+    margin: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.field {
+    padding: 5px;
+    margin: 5px;
+}
+
+select .field {
+    width: 100%;
+}
+
+#login-btn {
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+}
+
+#error-msg {
+    color: red;
+}
+
+#auto-fill-btn {
+    font-size: 11px;
+}

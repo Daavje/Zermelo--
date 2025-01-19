@@ -1,0 +1,32 @@
+body {
+    width: 200px;
+    text-align: center;
+}
+
+#lesson-info, #room-info {
+    margin: 0px;
+}
+
+.subtext-small {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#day-time-left, #day-info {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#extra-info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#time-left {
+	margin-bottom: 0px;
+}
+
+#lesson-info {
+	margin-top: 15px;
+}

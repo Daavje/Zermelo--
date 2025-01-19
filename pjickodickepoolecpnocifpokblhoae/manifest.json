@@ -1,0 +1,17 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"name": "Zermelo++",
+	"version": "1.0.3",
+	"description": "Integreert met Zermelo om actuele roosterinformatie te tonen",
+	"manifest_version": 3,
+	"permissions": [
+		"storage"
+	],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"256": "logo.png"
+	}
+}

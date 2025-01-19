@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h2 id="time-left"></h2>
+		<p id="notification-double-hour" class="subtext-small" style="display: none">(blokuur)</p>
+		
+        <p id="lesson-info"></p>
+        <p id="room-info"></p>
+
+        <div id="extra-info" style="display: none;">
+            <progress id="day-progress" value="0" max="100"></progress>
+            <p id="day-info"></p>
+            <p id="day-time-left"></p>
+        </div>
+        
+        <hr />
+        <p class="subtext-small">Hallo, <span id="username-span">...</span></p>
+        <p class="subtext-small"><a id="more-info-btn" href="#">Meer info</a> &middot; <a id="refresh-btn" href="#">Opnieuw laden</a> &middot; <a id="logout-btn" href="#">Uitloggen</a></p>
+        
+        <script src="zermelo.js"></script>
+    </body>
+</html>
